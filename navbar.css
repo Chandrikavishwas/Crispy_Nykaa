@@ -14,8 +14,8 @@ body {
 .g_topbanner {
   /* margin-top: 0px; */
   height: fit-content;
-  background-image: url("/top_nav_banner.png");
-  background-size: 65%;
+  background-image: url("./top_nav_banner.avif");
+  background-size: 100% !important;
   background-repeat: no-repeat;
   background-color: #ff91bb;
   width: 100%;
@@ -25,10 +25,12 @@ body {
   align-items: center;
 }
 #beauty_bonanza {
+  font-weight: 1000;
+  color: black;
   margin-left: 20%;
   margin-top: 9px;
   /* height: 15px; */
-  animation: slide 3s infinite;
+  animation: slide 2s infinite;
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }
@@ -61,7 +63,7 @@ body {
 .navbar_icons {
   width: 70%;
   display: flex;
-  margin-left: 25%;
+  margin-left: 14%;
   margin-right: 10px;
   justify-content: center;
   justify-content: space-evenly;
