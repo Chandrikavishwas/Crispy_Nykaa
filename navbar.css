@@ -472,13 +472,14 @@ body {
     display: block;
     padding: 20px;
     background-color: white;
-    width: 170px;
+    width: 100vw;
     height: fit-content;
     position: absolute;
     top: 90%;
     left: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      text-align: center;
   }
   .threeDots:hover .media_cb ul {
     width: 170px;
