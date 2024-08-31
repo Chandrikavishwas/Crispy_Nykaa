@@ -19,16 +19,18 @@ const append = () => {
 
   console.log(products);
   products.map((el, ind) => {
-    // console.log(el.title);
     let maainDiv = document.createElement("div");
     maainDiv.setAttribute("class", "s_bag_card");
 
     let child1 = document.createElement("div");
     child1.setAttribute("class", "s_bag_card_top");
+
     let img = document.createElement("img");
     img.setAttribute("src", el.image1);
+
     let child1_div = document.createElement("div");
-    child1_div.innerText = el.title;
+    child1_div.innerHTML = `<strong>${el.card_title}</strong>`
+
     let child1_span = document.createElement("span");
     child1_span.setAttribute("class", "material-symbols-outlined");
     child1_span.innerText = "delete";
@@ -73,12 +75,13 @@ const append = () => {
     child2_child2_div.setAttribute("class", "s_price_details");
 
     let child2_child2_span1 = document.createElement("span");
-
     child2_child2_span1.innerText = "₹" + el.price;
     child2_child2_span1.style.textDecoration = "line-through";
     child2_child2_span1.style.marginRight = "8%";
+
     let child2_child2_span2 = document.createElement("span");
     child2_child2_span2.innerText = "₹" + el.off_price;
+
     child2_child2_div.append(child2_child2_span1, child2_child2_span2);
 
     child2.append(child2_child1_div, child2_child2_div);
@@ -86,61 +89,47 @@ const append = () => {
     s_content_card.append(maainDiv);
 
     s_mian_price.innerText = Number(el.price) + Number(s_mian_price.innerText);
-
-    s_final_price.innerText =
-      Number(el.off_price) + Number(s_final_price.innerText);
-
-    s_discounted_price.innerText =
-      Number(s_mian_price.innerText) - Number(s_final_price.innerText);
-
+    s_final_price.innerText = Number(el.off_price) + Number(s_final_price.innerText);
+    s_discounted_price.innerText = Number(s_mian_price.innerText) - Number(s_final_price.innerText);
     s_proceed_price.innerText = s_final_price.innerText;
 
-    localStorage.setItem("price1",JSON.stringify( s_proceed_price.innerText ))
-      localStorage.setItem("price2",JSON.stringify( s_discounted_price.innerText ))
-      localStorage.setItem("price3",JSON.stringify( s_mian_price.innerText ))
+    localStorage.setItem("price1", JSON.stringify(s_proceed_price.innerText));
+    localStorage.setItem("price2", JSON.stringify(s_discounted_price.innerText));
+    localStorage.setItem("price3", JSON.stringify(s_mian_price.innerText));
 
     child2_child1_select.onclick = () => {
       console.log(child2_child1_select.value * el.price);
       console.log(child2_child1_select.value * el.off_price);
-      child2_child2_span1.innerText = child2_child1_select.value * el.price;
-      child2_child2_span2.innerText = child2_child1_select.value * el.off_price;
-      s_mian_price.innerText =
-        Number(el.price) + Number(s_mian_price.innerText);
-
-      s_final_price.innerText =
-        Number(el.off_price) + Number(s_final_price.innerText);
-
-      s_discounted_price.innerText =
-        Number(s_mian_price.innerText) - Number(s_final_price.innerText);
-
+      child2_child2_span1.innerText = "₹" + child2_child1_select.value * el.price;
+      child2_child2_span2.innerText = "₹" + child2_child1_select.value * el.off_price;
+      s_mian_price.innerText = Number(el.price) * child2_child1_select.value;
+      s_final_price.innerText = Number(el.off_price) * child2_child1_select.value;
+      s_discounted_price.innerText = Number(s_mian_price.innerText) - Number(s_final_price.innerText);
       s_proceed_price.innerText = s_final_price.innerText;
-      localStorage.setItem("price1",JSON.stringify( s_proceed_price.innerText ))
-      localStorage.setItem("price2",JSON.stringify( s_discounted_price.innerText ))
-      localStorage.setItem("price3",JSON.stringify( s_mian_price.innerText ))
+
+      localStorage.setItem("price1", JSON.stringify(s_proceed_price.innerText));
+      localStorage.setItem("price2", JSON.stringify(s_discounted_price.innerText));
+      localStorage.setItem("price3", JSON.stringify(s_mian_price.innerText));
     };
   });
 };
+
 append();
 
 let s_proceed_price = document.querySelector(".s_proceed_price");
-
 let s_blank_bag = document.getElementById("s_blank_bag");
-
-let s_bag_pricedetails_parent = document.getElementById(
-  "s_bag_pricedetails_parent"
-);
+let s_bag_pricedetails_parent = document.getElementById("s_bag_pricedetails_parent");
 
 if (s_proceed_price.innerText === "0") {
   s_blank_bag.style.display = "flex";
   s_bag_pricedetails_parent.style.display = "none";
 }
-// let bag = document.getElementById("arrow")
+
 document.getElementById("s_arrow").onclick = () => {
-    document.querySelector("body").style.display = "none";
-    console.log("object");
-  
+  document.querySelector("body").style.display = "none";
+  console.log("object");
 };
 
-document.getElementById("godj").onclick = ()=>{
-  location.href = "../footer/address.html"
-}
+document.getElementById("godj").onclick = () => {
+  location.href = "../footer/address.html";
+};
