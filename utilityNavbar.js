@@ -7,23 +7,23 @@ export const navbar = () => {
         <p id="beauty_bonanza">BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals</p>
         <div class="navbar_icons">
             <span class="material-symbols-outlined">phone_iphone</span> 
-            <p>Get App</p>
-            <h1>|</h1>
-            <span class="material-symbols-outlined">location_on</span>
-            <p>Store & Events</p>
-            <h1>|</h1>
-            <span class="material-symbols-outlined">redeem</span>
-            <p>Gift Card</p>
-            <h1>|</h1>
-            <span class="material-symbols-outlined">help</span>
-            <p>Help</p>
+                <p>Get App</p>
+                <h1>|</h1>
+                <span class="material-symbols-outlined">location_on</span>
+                <p>Store & Events</p>
+                <h1>|</h1>
+                <span class="material-symbols-outlined">redeem</span>
+                <p>Gift Card</p>
+                <h1>|</h1>
+                <span class="material-symbols-outlined">help</span>
+                <p>Help</p>
+            </div>
         </div>
-    </div>
-    <div class="topnav_category">
-         <div class="category">
-            <ul>
-            <li><a href="./index.html"><img src="./Nykaa-Logo.png" alt="Nykaa logo" width="100px"></a></li>
-                <li><p>Categories</p></li>
+        <div class="topnav_category">
+            <div class="category">
+                <ul>
+                <li><a href="./index.html"><img src="./Nykaa-Logo.png" alt="Nykaa logo" width="100px"></a></li>
+                    <li><p>Categories</p></li>
                 <li><p>Brand</p></li>
                 <li><p>Luxe
                     <div class="sub_menu_1">
