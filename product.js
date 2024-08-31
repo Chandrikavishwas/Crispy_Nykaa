@@ -128,9 +128,11 @@ function addNewProducts(product) {
     existingProducts.push(product);
     // Store the updated list in localStorage
     localStorage.setItem("nykaaProduct", JSON.stringify(existingProducts));
-    alert("Product added to bag");
+    let redirect = window.confirm("Product added to bag, if you click 'Okay'you will be redirected to Bag");
+    if (redirect) location.href = './bag/bag.html'
   } else {
-    alert("Product is already in the bag");
+    let redirect = window.confirm("Product is already in the bag, if you click 'Okay'you will be redirected to Bag");
+    if (redirect) location.href = './bag/bag.html'
   }
 }
 
