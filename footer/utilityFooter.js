@@ -167,7 +167,7 @@ export const footer = ()=>{
             <p>Cancellation Policy</p>
             <p>Privacy Policy</p>
         </div>
-        <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+        <p>© 2024 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
         
     </div>
     `
