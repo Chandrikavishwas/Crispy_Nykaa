@@ -108,6 +108,7 @@ body {
   font-size: 14px;
   margin-top: 25px;
 }
+
 .category > ul > li {
   margin-top: 20px;
 }
@@ -300,13 +301,19 @@ body {
   height: 40px;
   list-style: none;
   justify-content: space-evenly;
+  margin-top: 40px;
 }
 .dropdown_category > ul > li > a {
   text-decoration: none;
   color: #8f8e9a;
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  
 }
+.dropdown_category+img{
+  margin-top: 30px;
+}
+
 .offers {
   display: flex;
   position: relative;

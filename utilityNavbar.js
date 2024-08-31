@@ -22,7 +22,7 @@ export const navbar = () => {
         <div class="topnav_category">
             <div class="category">
                 <ul>
-                <li><a href="./index.html"><img src="./Nykaa-Logo.png" alt="Nykaa logo" width="100px"></a></li>
+                <li><a href="./index.html"><img src="./Nykaa-Logo.png" alt="Nykaa logo" width="100px" ></a></li>
                     <li><p>Categories</p></li>
                 <li><p>Brand</p></li>
                 <li><p>Luxe
