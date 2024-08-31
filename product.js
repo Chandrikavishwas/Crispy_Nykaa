@@ -119,9 +119,9 @@ function addNewProducts(product) {
 
   // Retrieve existing products from localStorage
   let existingProducts = JSON.parse(localStorage.getItem("nykaaProduct")) || [];
-  
+
   // Check if the product is already in the localStorage
-  const productExists = existingProducts.some(p => p && p.id === product.id);
+  const productExists = existingProducts.some((p) => p && p.id === product.id);
 
   if (!productExists) {
     // Add the new product to the list
@@ -190,7 +190,7 @@ function append(data) {
       // Find the product associated with this button
       const cardElement = this.closest(".card");
       const productId = cardElement.getAttribute("data-id");
-      const product = data.find(p => p && p.id == productId);
+      const product = data.find((p) => p && p.id == productId);
 
       if (product) {
         addNewProducts(product);
@@ -209,6 +209,5 @@ function append(data) {
     });
   });
 }
-
 
 showProduct();
