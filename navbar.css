@@ -116,11 +116,13 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
-
-.category > ul > li {
-  margin-top: 20px;
+.category>ul>li:nth-child(n + 2){
+  margin-top:30px ;
+}
+.category > ul > li>img {
+  margin-top: -20px;
 }
 .category > ul > li > p:hover {
   color: orangered;
