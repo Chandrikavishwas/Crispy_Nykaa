@@ -111,28 +111,39 @@ const newProducts = [
   },
 ];
 
-function addNewProducts() {
-  // Store the newProducts array in localStorage
-  localStorage.setItem("nykaaProduct", JSON.stringify(newProducts));
-  alert("New products added to bag");
+function addNewProducts(product) {
+  if (!product || !product.id) {
+    console.error("Invalid product object:", product);
+    return;
+  }
+
+  // Retrieve existing products from localStorage
+  let existingProducts = JSON.parse(localStorage.getItem("nykaaProduct")) || [];
+  
+  // Check if the product is already in the localStorage
+  const productExists = existingProducts.some(p => p && p.id === product.id);
+
+  if (!productExists) {
+    // Add the new product to the list
+    existingProducts.push(product);
+    // Store the updated list in localStorage
+    localStorage.setItem("nykaaProduct", JSON.stringify(existingProducts));
+    alert("Product added to bag");
+  } else {
+    alert("Product is already in the bag");
+  }
 }
 
 function showProduct() {
-  // Use the newProducts array directly
   var data = newProducts;
-
   console.log(data);
-
   append(data);
 }
-
-showProduct();
-
 function append(data) {
   let dis = document.getElementById("PRODUCT");
   let cards = "";
 
-  data.map((el) => {
+  data.forEach((el) => {
     let rating;
     if (el.rating > 4) {
       rating = "&#9733;&#9733;&#9733;&#9733;&#9733;";
@@ -143,7 +154,7 @@ function append(data) {
     }
 
     cards += `
-        <div class="card">
+        <div class="card" data-id="${el.id}">
             <h6 id="G-five">BEST SELLER</h6>
             <div id="G-img">
                 <img src="${el.image1}" alt="${el.id}">
@@ -158,7 +169,7 @@ function append(data) {
             <div id="addToBag">
                 <div id="hert"><span id="heart">&#x2661;</span></div>
                 <div id="add">
-                    <div class="addToBagBtn" >
+                    <div class="addToBagBtn">
                         <h5>Add to Bag</h5>
                     </div>
                 </div>
@@ -172,11 +183,18 @@ function append(data) {
   let addToBagButtons = document.querySelectorAll(".addToBagBtn");
   addToBagButtons.forEach((button) => {
     button.addEventListener("click", function (event) {
-      // Prevents triggering the card click event
       event.stopPropagation();
 
-      // Add the product to the bag
-      addNewProducts();
+      // Find the product associated with this button
+      const cardElement = this.closest(".card");
+      const productId = cardElement.getAttribute("data-id");
+      const product = data.find(p => p && p.id == productId);
+
+      if (product) {
+        addNewProducts(product);
+      } else {
+        console.error("Product not found:", productId);
+      }
     });
   });
 
@@ -190,8 +208,5 @@ function append(data) {
   });
 }
 
-function xxxyyy(cardElement) {
-  const productId = cardElement.querySelector("img").alt;
-  localStorage.setItem("nykaaProduct", JSON.stringify(productId));
-  console.log(productId);
-}
+
+showProduct();
