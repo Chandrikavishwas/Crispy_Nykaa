@@ -4,6 +4,14 @@ body {
   margin: 0;
   padding: 0;
 }
+#Welcome_banner>img{
+  max-width: 94%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  border: 8px;
+  border-radius: 5px;
+}
+
 .topnav_container {
   position: fixed;
   /* top: 0; */
@@ -291,6 +299,10 @@ body {
 .category ul li .sub_menu_2 ul li b:hover {
   text-decoration: orangered;
 }
+.dropdown_category>ul>li>a:nth-of-type(1):hover{
+  max-width: 90%;
+  max-height: 10%;
+} 
 
 .dropdown_category {
   display: flex;
