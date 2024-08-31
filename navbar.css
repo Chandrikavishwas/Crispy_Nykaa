@@ -472,6 +472,7 @@ body {
   .media_cb ul li:hover .sub_menu_3 ul {
     display: block;
     padding: 20px;
+    margin-left: -30px;
     background-color: white;
     width: 100vw;
     height: fit-content;
@@ -481,10 +482,11 @@ body {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     text-align: center;
+    margin: auto;
   }
   .threeDots:hover .media_cb ul {
     margin-top: 15px;
-    margin-left: 75px;
+    margin-left: 30px;
     width: 170px;
     list-style: none;
     justify-content: space-between;

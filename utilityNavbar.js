@@ -26,10 +26,12 @@ export const navbar = () => {
                     <li><p>Categories</p></li>
                 <li><p>Brand</p></li>
                 <li><p>Luxe
+                <a href = './product.html'>
                     <div class="sub_menu_1">
                         <ul>
                           <li>Makeup
                             <div class="sub_menu_2">
+                            
                                 <ul>
                                     <li><a href="" style="color: rgb(46, 45, 45);"><b>Makeup Collection Face</b></a></li>
                                     <li><a href="">Foundation</a></li>
@@ -407,6 +409,7 @@ export const navbar = () => {
                 </li>
             </ul>    
          </div>
+         </a>
          <div class="search">
             <form id="nykaa_search">
                <span class="material-symbols-outlined">search</span> 
@@ -1630,3 +1633,9 @@ export const navbar = () => {
 
 </div>`;
 };
+const links = document.querySelectorAll('li a');
+
+  // Loop through each 'a' tag and set the 'href' attribute to './product.html'
+  links.forEach(link => {
+    link.href = './product.html';
+  });
