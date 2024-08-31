@@ -32,5 +32,12 @@ if(user_name!=""){
     
 }
 
-//get the key of user name
-//while clicking login , if its sucessful change key value in localstorage
+document.addEventListener('DOMContentLoaded', function() {
+  var anchors = document.querySelectorAll('a');
+  anchors.forEach(function(anchor) {
+      anchor.addEventListener('click', function(event) {
+          event.preventDefault();
+          window.location.href = './product.html';
+      });
+  });
+});
