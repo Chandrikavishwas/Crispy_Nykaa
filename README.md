@@ -23,7 +23,7 @@ i am student of Full stack web development batch which is one of the famous cour
 - User can search beauty product according to sectors in sliding menu.
 - User can able to filter product list according to several parameters.
 - After clicking on any beauty product , product page added to the cart page then you will go to the address page and fell address and choose the payment mode. you can do it with anyone.. .
-- When user click on pay now button he get confirmation message and after confirmation user will get otp and after entering otp payment will be successfull.
+- When user click on pay now button he get confirmation message and after confirmation user will get otp and after entering otp payment will be    successfull.
 - CRUD Functionality
 - Payment Functionality
 
@@ -49,31 +49,67 @@ Get access to github link , clone it to your system by using command (git clone 
 ![Screenshot (1697)](https://user-images.githubusercontent.com/108890988/189495829-86722986-464d-4837-b49e-cb737600c7d3.png)
 
 ## Directory Structure
+├─ Design-Discus_032
+|  ├─ .vscode
+|  |  ├─ {} settings.json
+|  ├─ bag
+|  |  ├─ img
+|  |  |  ├─ bag.png
+|  |  ├─ # bag.css
+|  |  ├─ <> bag.html
+|  |  ├─ Js bag.js
+|  |  ├─ <> temp.html
+|  ├─ footer
+|  |  ├─ img
+|  |  |  ├─ Buy Cosmetics
+|  |  ├─ style
+|  |  |  ├─ # address.css
+|  |  |  ├─ # otp.css
+|  |  |  ├─ # payment.css
+|  |  |  ├─ # success.css
+|  |  ├─ address.html
+|  |  ├─ # footer.css
+|  |  ├─ <> footer.html
+|  |  ├─ Js footer.js
+|  |  ├─ <> otp.html
+|  |  ├─ <> payment.html
+|  |  ├─ <> success.html
+|  |  ├─ Js utilityFooter.js
+|  ├─ signPage
+|  |  ├─ css
+|  |  |   ├─ # sign.css
+|  |  ├─ img
+|  |  |  ├─ google.png
+|  |  |  ├─ sign_1.png
+|  |  ├─ scripts
+|  |  |  ├─Js log.js
+|  |  |  ├─Js login.js
+|  |  |  ├─Js register.js
+|  |  |  ├─Js signDetails.js
+|  |  |  ├─Js utility.js
+|  |  ├─ log.html
+|  |  ├─ login.html
+|  |  ├─ register.html
+|  |  ├─ signDetails.html
+|  |  ├─ signUp.html
+|  ├─ {} db.json
+|  ├─ <> index.html
+|  ├─ # landing.css
+|  ├─ Js landing.js
+|  ├─ # navbar.css
+|  ├─ <> navbar.html
+|  ├─ Js navbar.js
+|  ├─ nykaa_icon.webp
+|  ├─ Nykaa-Logo.png
+|  ├─ offers.png
+|  ├─ # product.css
+|  ├─ <> product.html
+|  ├─ Js product.js
+|  ├─ i README.md
+|  ├─ top_nav_banner.avif
+|  ├─ Js utilityNavbar.js
+|  ├─ Welcome banner.avif
 
-├─ Design_Discus_032
-| ├─ img <!--  This folder contains all the images   -->
-| ├─ index.html <!-- Home page -which needs to be run first  -->
-| ├─ select.html
-| ├─ about_Us.html
-| ├─ contact_Us.html
-| ├─ privacy policy.html
-| ├─ termsofservice.html
-| ├─ 1990s.html
-| ├─ 2000s.html
-| ├─ 2010s.html
-| ├─ 2020s.html
-| ├─ 2030s.html
-| ├─ 2030s.html
-| ├─ styles.css
-| ├─ select.css
-| ├─ 2000.css
-| ├─ 2010.css
-| ├─ 2020.css
-| ├─ 2030.css
-| ├─ script.js
-| ├─ select.js
-| ├─ 2020.js
-| ├─ hamscript.js
 
 ## Video Walkthrough/presentaion of the project
 
