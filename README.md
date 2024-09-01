@@ -48,6 +48,41 @@ Get access to github link , clone it to your system by using command (git clone 
 
 ![Screenshot (1697)](https://user-images.githubusercontent.com/108890988/189495829-86722986-464d-4837-b49e-cb737600c7d3.png)
 
+## Directory Structure
+
+├─ Design_Discus_032
+| ├─ img <!--  This folder contains all the images   -->
+| ├─ index.html <!-- Home page -which needs to be run first  -->
+| ├─ select.html
+| ├─ about_Us.html
+| ├─ contact_Us.html
+| ├─ privacy policy.html
+| ├─ termsofservice.html
+| ├─ 1990s.html
+| ├─ 2000s.html
+| ├─ 2010s.html
+| ├─ 2020s.html
+| ├─ 2030s.html
+| ├─ 2030s.html
+| ├─ styles.css
+| ├─ select.css
+| ├─ 2000.css
+| ├─ 2010.css
+| ├─ 2020.css
+| ├─ 2030.css
+| ├─ script.js
+| ├─ select.js
+| ├─ 2020.js
+| ├─ hamscript.js
+
+## Video Walkthrough/presentaion of the project
+
+Link : https://youtu.be/C2fMm81KGbI
+
+## Video Walkthrough of the codebase
+
+Link :
+
 # Features
 
 - navbar with megamenu
