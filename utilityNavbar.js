@@ -25,6 +25,7 @@ export const navbar = () => {
                 <li><a href="./index.html"><img src="./Nykaa-Logo.png" alt="Nykaa logo" width="100px" ></a></li>
                     <li><p>Categories</p></li>
                 <li><p>Brand</p></li>
+                
                 <li><p>Luxe
                 <a href = './product.html'>
                     <div class="sub_menu_1">
