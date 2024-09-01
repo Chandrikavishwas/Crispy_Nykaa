@@ -1,12 +1,10 @@
-# crispy-naykaa
-
 # naykaa-website-clone
 
 NYKAA clone
 
 # TASK
 
-Nykaa Clone was a unit-5 Construct-week project at Masai School. In this we have tried to clone the website.
+Nykaa Clone was a unit-4 Construct-week project at Masai School. In this we have tried to clone the website.
 As we all know Nykaa is Beauty and Skin care products selling website which has wide variety of products.
 Nykaa is an Indian e-commerce company.
 It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores.
@@ -38,6 +36,10 @@ i am student of Full stack web development batch which is one of the famous cour
 - Iftekhar Ahmed
 
 # DEPLOYMENT LINK
+
+## Installation & Getting started
+
+Get access to github link , clone it to your system by using command (git clone "github link"), Run signUp.html
 
 # screenshots
 
