@@ -2,7 +2,7 @@ const newProducts = [
   {
     id: 2,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRvwqFwhTa7jWPcQXxVZmRZS1LsXX7SmhNypo1ZjwQ6GM_oKgLea4SoEUyhi-T41_in3RRT4GvuItvTgMAfjzKC3uDknN-4kAI-HZLh0sr5ClscfsTcBKp6&usqp=CAE",
     card_title: "Braun Hair Dryer",
     price: "1499",
     off_price: "1349",
@@ -13,7 +13,7 @@ const newProducts = [
   {
     id: 3,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSt2spcMrbxFrVSdJ76Nyd6z7piOFEVDmLUWl1QtUMLR9xwM0uzWasmRlYIrNeMlqc8vP2yxjts4KpZnAbwebb9ZYFvn_uxC650aZMtyfsp&usqp=CAE",
     card_title: "Dyson Airwrap Styler",
     price: "49999",
     off_price: "45999",
@@ -24,7 +24,7 @@ const newProducts = [
   {
     id: 4,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQIKjgic8j4kcW-1TXurgF2Lx4evoG7nBFshrlQrBthGzn6uHmwufllpcsVFaGtPqbEuoF_fq5CC2bOTojBAA7cMTPXQJsQ7BGu-VDH4wcxeFAgXzbyYYa1Ow&usqp=CAE",
     card_title: "Philips Electric Shaver",
     price: "2999",
     off_price: "2699",
@@ -35,7 +35,7 @@ const newProducts = [
   {
     id: 5,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTbcLkMQ5qoxdoGTFLyp3q7JgDcn40eL4Sltb2QNGsZXLuhrB2xP_0JqcIRYqLPmDRnDH7X6xnC4SeInstkralKbqdobLVbMbUU-wm_frAUL9-T9jveFJ3Q&usqp=CAE",
     card_title: "Gillette Razor Blades",
     price: "699",
     off_price: "629",
@@ -46,7 +46,7 @@ const newProducts = [
   {
     id: 6,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR7ClU2IkXBteQiQxKtldwHY04-3BHJQ64QU59-xEwnqdVdApSn665zLb1dYgtCbzFAM9sOhvcu2ark4AlGxEBNtdlxo3wZHLoOgGRkrt5h&usqp=CAE",
     card_title: "Remington Face Epilator",
     price: "1799",
     off_price: "1599",
@@ -57,7 +57,7 @@ const newProducts = [
   {
     id: 7,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSEfxpiAO5tkUUNYQK18zpApzgsRCsr47c--iSNj1Tb9UnQlSfQ2itWkzBO9KzLW9_1Szfvbwtr7ECFJ7uN4kI8rFekjG6Tfg&usqp=CAE",
     card_title: "Beurer Facial Steamer",
     price: "2499",
     off_price: "2249",
@@ -68,7 +68,7 @@ const newProducts = [
   {
     id: 8,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ_o_yyCYHFnEcs-D_CbKGQmOijQqQXRdnmjmZctnFW20BIHtz8pM3YOogBBRrUirGRVgl47LkSzUMfc7JPbiZbdEBw66TknQo16Vda15lvph72M9FzdAWwZQ",
     card_title: "Veet Hair Removal Cream",
     price: "299",
     off_price: "269",
@@ -79,7 +79,7 @@ const newProducts = [
   {
     id: 9,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRHwcx29dJQeDYJB1UpDWyS0fpkMw96x4MDD8ZZB08z5X_cN6htXhp-JXh8ETgDhZc6MF-3C0_ECKe7dgQq5PP2qeNSzUhmFg&usqp=CAE",
     card_title: "Panasonic Body Massager",
     price: "2999",
     off_price: "2699",
@@ -90,7 +90,7 @@ const newProducts = [
   {
     id: 10,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR3sbsYHmKzr_LJJu2saG5otlXsy47tqDBxFy-u44KvHO99pK9aAt5L5Fj4h_2zoGvsSGjf3QzuDOh4D2WepUAFfQm8azn7P6rjCg76Bs0&usqp=CAE",
     card_title: "Omron Back Massager",
     price: "1999",
     off_price: "1799",
@@ -101,7 +101,7 @@ const newProducts = [
   {
     id: 11,
     image1:
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcDHlrudEDCPKOtAkTLLVv1iFVGEzLM9z3S_oFI9D96NPXtLWjcfroyhbiqsIhMkitQcDmElnJr4kCrkSY2wvR7kdRuhRnI0TNaSJrhPgsYvB7CqZReQ-NlsACcr-P9OixeAKTHVU&usqp=CAc",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR8OCqAItgkhLXzTLz4052U1jmyKkZuxA-7lgrfpe67Z1gniI5nfVSPDc-ruduzLdBqS8sAsbr-x9qhQ8pfYtyLBre2Z8INxvX2u2r--uwd3ftb_N4c6h1q&usqp=CAE",
     card_title: "Philips Hair Straightener",
     price: "2299",
     off_price: "1999",
@@ -128,11 +128,15 @@ function addNewProducts(product) {
     existingProducts.push(product);
     // Store the updated list in localStorage
     localStorage.setItem("nykaaProduct", JSON.stringify(existingProducts));
-    let redirect = window.confirm("Product added to bag, if you click 'Okay'you will be redirected to Bag");
-    if (redirect) location.href = './bag/bag.html'
+    let redirect = window.confirm(
+      "Product added to bag, if you click 'Okay'you will be redirected to Bag"
+    );
+    if (redirect) location.href = "./bag/bag.html";
   } else {
-    let redirect = window.confirm("Product is already in the bag, if you click 'Okay'you will be redirected to Bag");
-    if (redirect) location.href = './bag/bag.html'
+    let redirect = window.confirm(
+      "Product is already in the bag, if you click 'Okay'you will be redirected to Bag"
+    );
+    if (redirect) location.href = "./bag/bag.html";
   }
 }
 
