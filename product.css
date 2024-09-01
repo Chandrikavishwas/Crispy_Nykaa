@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#parent {
+  background-color: #f3f3f3;
+}
+
+#HairTools {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#G-slide {
+  width: 80%;
+  margin: auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+#G-lable {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#mainProd {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#area {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FILTERANDSORT {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+#sort {
+  display: flex;
+  gap: 10px;
+}
+
+#sortTag,
+#categoryTag {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #fc2779;
+  border-radius: 20px;
+}
+
+#PRODUCT {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: block;
+  background-color: white;
+  text-align: center;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+#G-five {
+  color: green;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#G-des {
+  padding: 10px;
+}
+
+#Price-Div {
+  padding: 10px;
+}
+
+#price {
+  color: grey;
+  text-decoration: line-through;
+}
+
+#G-real {
+  color: black;
+  margin-left: 5px;
+}
+
+#G-OFF {
+  color: green;
+  margin-left: 5px;
+}
+
+#rating {
+  padding: 10px;
+}
+
+#addToBag {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+#hert {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#heart {
+  color: #fc2779;
+  font-size: 24px;
+}
+
+#add {
+  background-color: #fc2779;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addToBagBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fc2779;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.addToBagBtn:hover {
+  background-color: #e02d6d;
+}
