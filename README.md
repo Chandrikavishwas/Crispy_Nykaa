@@ -37,7 +37,7 @@ i am student of Full stack web development batch which is one of the famous cour
 
 # DEPLOYMENT LINK
 
-- Netlify Link - https://golden-gumption-cbd40c.netlify.app/
+- Netlify Link - https://sweet-donut-1ca8e9.netlify.app/
 - Github Link -https://github.com/Chandrikavishwas/Design-Discus_032
 
 ## Installation & Getting started
