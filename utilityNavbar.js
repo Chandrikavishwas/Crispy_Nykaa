@@ -31,327 +31,294 @@ export const navbar = () => {
                         <ul>
                           <li>Makeup
                             <div class="sub_menu_2">
-                            
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup Collection Face</b></a></li>
-                                    <li><a href="./product.html">Foundation</a></li>
-                                    <li><a href="./product.html">Compact</a></li>
-                                    <li><a href="./product.html">Highlighter</a></li>
-                                    <li><a href="./product.html">Setting Spray</a></li>
-                                    <li><a href="./product.html">Primer</a></li>
-                                    <li><a href="./product.html">Concealer Powder</a></li>
-                                    <li><a href="./product.html">Blush</a></li>
-                                    <li><a href="./product.html">Loose Powder</a></li>
-                                    <li><a href="./product.html">Bronzer</a></li>
-                                    <li><a href="./product.html">BB & CC Cream</a></li>
-                                    <li><a href="./product.html">Makeup Remover</a></li>
-                                    <li><a href="./product.html">Contouring</a></li>
-                                    <li><a href="./product.html"></a>Face Palette</li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Eyes</b></a></li>
-                                    <li><a href="./product.html">Eyeliner & Kajal</a></li>
-                                    <li><a href="./product.html">Mascara</a></li>
-                                    <li><a href="./product.html">Eye Shadow</a></li>
-                                    <li><a href="./product.html"> Brows</a></li>
-                                    <li><a href="./product.html">Eye Primer</a></li>
-                                    <li><a href="./product.html">Cocealer</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lips</b></a></li>
-                                    <li><a href="./product.html">Lipstick</a></li>
-                                    <li><a href="./product.html">Liquid Lipstick</a></li>
-                                    <li><a href="./product.html">Lip Balm</a></li>
-                                    <li><a href="./product.html">Lip Tint</a></li>
-                                    <li><a href="./product.html">Lip Liner</a></li>
-                                    <li><a href="./product.html">Lip Plumper</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color:  rgb(46, 45, 45);"><b>Nails</b></a></li>
-                                    <li><a href="./product.html">Nail Polish</a></li>
-                                    <li><a href="./product.html">Nail Care</a></li>
-                                    <li><a href="./product.html">Nail Polish Remover</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Brushes</b></a></li>
-                                    <li><a href="./product.html">Face Brush</a></li>
-                                    <li><a href="./product.html">Eye Brush</a></li>
-                                    <li><a href="./product.html">Lip Brush</a></li>
-                                    <li><a href="./product.html">Applicators</a></li>
-                                    <br>
+<ul>
+    <li class="Makeup Collection"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup Collection</b></a></li>
+    <li><a href="./product.html">Face</a></li>
+    <li><a href="./product.html">Foundation</a></li>
+    <li><a href="./product.html">Compact</a></li>
+    <li><a href="./product.html">Highlighter</a></li>
+    <li><a href="./product.html">Setting Spray</a></li>
+    <li><a href="./product.html">Primer</a></li>
+    <li><a href="./product.html">Concealer</a></li>
+    <li><a href="./product.html">Blush</a></li>
+    <li><a href="./product.html">Loose Powder</a></li>
+    <li><a href="./product.html">Bronzer</a></li>
+    <li><a href="./product.html">Makeup Remover</a></li>
+    <li><a href="./product.html">Tinted Moisturizer</a></li>
+    <li><a href="./product.html">Contouring</a></li>
+    <li><a href="./product.html">BB & CC Cream</a></li>
+    <li><a href="./product.html">Face Palette</a></li>
+</ul>
+
+<ul>
+    <li class="Eyes"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Eyes</b></a></li>
+    <li><a href="./product.html">Eye Shadow</a></li>
+    <li><a href="./product.html">Mascara</a></li>
+    <li><a href="./product.html">Eyeliner & Kajal</a></li>
+    <li><a href="./product.html">Brows</a></li>
+    <li><a href="./product.html">Eye Primer</a></li>
+    <li><a href="./product.html">Concealer</a></li>
+    <li><a href="./product.html">Lashes</a></li>
+</ul>
+
+<ul>
+    <li class="Lips"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lips</b></a></li>
+    <li><a href="./product.html">Lipstick</a></li>
+    <li><a href="./product.html">Liquid Lipstick</a></li>
+    <li><a href="./product.html">Lip Balm</a></li>
+    <li><a href="./product.html">Lip Plumper</a></li>
+    <li><a href="./product.html">Lip Liner</a></li>
+    <li><a href="./product.html">Lip Tint</a></li>
+</ul>
+
+<ul>
+    <li class="Nails"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Nails</b></a></li>
+    <li><a href="./product.html">Nail Polish</a></li>
+    <li><a href="./product.html">Nail Care</a></li>
+    <li><a href="./product.html">Nail Polish Remover</a></li>
+</ul>
+
+<ul>
+    <li class="Tools & Brushes"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Brushes</b></a></li>
+    <li><a href="./product.html">Face Brush</a></li>
+    <li><a href="./product.html">Eye Brush</a></li>
+    <li><a href="./product.html">Applicators</a></li>
+    <li><a href="./product.html">Lip Brush</a></li>
+</ul>
+
+<ul>
+    <li class="Makeup Kits"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup Kits</b></a></li>
+</ul>
+
+
+
                             </div>
                           </li>
                           <li>Skin
                             <div class="sub_menu_2">
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Face</b></a></li>
-                                    <li><a href="./product.html">Serums & Essence</a></li>
-                                    <li><a href="./product.html">Face Moisturisers & Day</a></li>
-                                    <li><a href="./product.html">Cream</a></li>
-                                    <li><a href="./product.html">Toner</a></li>
-                                    <li><a href="./product.html">Face Wash & Cleansers</a></li>
-                                    <li><a href="./product.html">Face Mist</a></li>
-                                    <li><a href="./product.html">Scrubs & Exfoliators</a></li>
-                                    <li><a href="./product.html">Masks & Peels</a></li>
-                                    <li><a href="./product.html">Night Cream</a></li>
-                                    <li><a href="./product.html">Sunscreen</a></li>
-                                    <li><a href="./product.html">Makeup Remover</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Undereye Creams & Serums</b></a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lip Care</b></a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Shop By Concern</b></a></li>
-                                    <li><a href="./product.html">Pigmentation</a></li>
-                                    <li><a href="./product.html">Acne</a></li>
-                                    <li><a href="./product.html">Dark Circles</a></li>
-                                    <li><a href="./product.html">Ageing</a></li>
-                                    <li><a href="./product.html">Dry Skin</a></li>
-                                    <li><a href="./product.html">Oil Control</a></li>
-                                    <li><a href="./product.html">Pore Care</a></li>
-                                    <li><a href="./product.html">Wrinkles And Fine Lines</a></li>
-                                    <li><a href="./product.html">Under Eye Concealer</a></li>
-                                    <li><a href="./product.html">Contact Lenses</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Gift Sets</b></a></li>
-                                </ul>
+<ul>
+    <li class="Face"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Face</b></a></li>
+    <li><a href="./product.html">Serums & Essence</a></li>
+    <li><a href="./product.html">Face Moisturisers & Day Cream</a></li>
+    <li><a href="./product.html">Toner</a></li>
+    <li><a href="./product.html">Face Wash & Cleansers</a></li>
+    <li><a href="./product.html">Face Mist</a></li>
+    <li><a href="./product.html">Scrubs & Exfoliators</a></li>
+    <li><a href="./product.html">Masks & Peels</a></li>
+    <li><a href="./product.html">Night Cream</a></li>
+    <li><a href="./product.html">Sunscreen</a></li>
+    <li><a href="./product.html">Makeup Remover</a></li>
+</ul>
+
+<ul>
+    <li class="Undereye Creams & Serums"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Undereye Creams & Serums</b></a></li>
+</ul>
+
+<ul>
+    <li class="Lip Care"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lip Care</b></a></li>
+</ul>
+
+<ul>
+    <li class="Shop By Concern"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Shop By Concern</b></a></li>
+    <li><a href="./product.html">Pigmentation</a></li>
+    <li><a href="./product.html">Acne</a></li>
+    <li><a href="./product.html">Dark Circles</a></li>
+    <li><a href="./product.html">Ageing</a></li>
+    <li><a href="./product.html">Dry Skin</a></li>
+    <li><a href="./product.html">Oil Control</a></li>
+    <li><a href="./product.html">Pore Care</a></li>
+    <li><a href="./product.html">Wrinkles And Fine Lines</a></li>
+</ul>
+
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Gift Sets</b></a></li>
+</ul>
+
                             </div>
                           </li>
+
                           <li>Fragrance
                             <div class="sub_menu_2">
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Face</b></a></li>
-                                    <li><a href="./product.html">Face Primer</a></li>
-                                    <li><a href="./product.html">Concealer</a></li>
-                                    <li><a href="./product.html">Foundation</a></li>
-                                    <li><a href="./product.html">Compact</a></li>
-                                    <li><a href="./product.html">Contour</a></li>
-                                    <li><a href="./product.html">Loose Powder</a></li>
-                                    <li><a href="./product.html">Tinted Moisturizer</a></li>
-                                    <li><a href="./product.html">Blush</a></li>
-                                    <li><a href="./product.html">Bronzer</a></li>
-                                    <li><a href="./product.html">BB & CC Cream</a></li>
-                                    <li><a href="./product.html">Highlighters</a></li>
-                                    <li><a href="./product.html">Setting Spray</a></li>
-                                    <li><a href="./product.html">Makeup Remover</a></li>
-                                    <li><a href="./product.html">Sindoor</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Eyes</b></a></li>
-                                    <li><a href="./product.html">Kajal</a></li>
-                                    <li><a href="./product.html">Eyeliner</a></li>
-                                    <li><a href="./product.html">Mascara</a></li>
-                                    <li><a href="./product.html">Eye Shadow</a></li>
-                                    <li><a href="./product.html">Eye Brow Enhancers</a></li>
-                                    <li><a href="./product.html">Eye Primer</a></li>
-                                    <li><a href="./product.html">False Eyeglasses</a></li>
-                                    <li><a href="./product.html">Eye Makeup Remover</a></li>
-                                    <li><a href="./product.html">Under Eye Concealer</a></li>
-                                    <li><a href="./product.html">Contact Lenses</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup Kits & Combos</b></a></li>
-                                    <li><a href="./product.html">Makeup Kits</a></li>
-                                    <li><a href="./product.html">Makeup Combos</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lips</b></a></li>
-                                    <li><a href="./product.html">Lipstick</a></li>
-                                    <li><a href="./product.html">Liquid Lipstick</a></li>
-                                    <li><a href="./product.html">Lip Crayon</a></li>
-                                    <li><a href="./product.html">Lip Gloss</a></li>
-                                    <li><a href="./product.html">Lip Liner</a></li>
-                                    <li><a href="./product.html">Lip Plumper</a></li>
-                                    <li><a href="./product.html">Lip Stain</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color:  rgb(46, 45, 45);"><b>Nails</b></a></li>
-                                    <li><a href="./product.html">Nail Polish</a></li>
-                                    <li><a href="./product.html">Nail Arts Kits</a></li>
-                                    <li><a href="./product.html">Nail Care</a></li>
-                                    <li><a href="./product.html">Nail Polish Remover</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Brushes</b></a></li>
-                                    <li><a href="./product.html">Face Brush</a></li>
-                                    <li><a href="./product.html">Eye Brush</a></li>
-                                    <li><a href="./product.html">Lip Brush</a></li>
-                                    <li><a href="./product.html">Brush Sets</a></li>
-                                    <li><a href="./product.html">Brush Cleaners</a></li>
-                                    <li><a href="./product.html">Sponges &Applicators</a></li>
-                                    <li><a href="./product.html">Eyelash Curlers</a></li>
-                                    <li><a href="./product.html">Tweezers</a></li>
-                                    <li><a href="./product.html">Sharpners</a></li>
-                                    <li><a href="./product.html">Mirrors</a></li>
-                                    <li><a href="./product.html">Makeup Pouches</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color:  rgb(46, 45, 45);"><b>Multi-Functional Makeup Palettes</b></a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Top Brands</b></a></li>
-                                    <li><a href="./product.html">Kay Beauty</a></li>
-                                    <li><a href="./product.html">Huda Beauty</a></li>
-                                    <li><a href="./product.html">Charlotte Tilbury</a></li>
-                                    <li><a href="./product.html">M.A.C</a></li>
-                                    <li><a href="./product.html">Maybelline New York</a></li>
-                                    <li><a href="./product.html">L'Oreal Paris</a></li>
-                                    <li><a href="./product.html">Lakme</a></li>
-                                    <li><a href="./product.html">Nykaa Cosmetics</a></li>
-                                    <li><a href="./product.html">Nyx Pro.Makeup</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Quick Links</b></a></li>
-                                    <li><a href="./product.html">Combos @ Nykaa</a></li>
-                                    <li><a href="./product.html">New Launches</a></li>
-                                    <li><a href="./product.html">NFBA Nominees 2020</a></li>
-                                    <li><a href="./product.html">Gifts @ Nykaa</a></li>
-                                    <li><a href="./product.html">The Gift Store</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Trending Searches</b></a></li>
-                                    <li><a href="./product.html">Nude Lipstick</a></li>
-                                    <li><a href="./product.html">Matte Lipstick</a></li>
-                                    <li><a href="./product.html">Red Lipstick</a></li>
-                                    <li><a href="./product.html">Pink Lipstick</a></li>
-                                </ul>
+<ul>
+    <li class="Women's Fragrance"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Women's Fragrance</b></a></li>
+    <li><a href="./product.html">Perfumes (EDP/EDT)</a></li>
+    <li><a href="./product.html">Face & Body Mists</a></li>
+    <li><a href="./product.html">Gifts</a></li>
+    <li><a href="./product.html">Deodorants</a></li>
+</ul>
+
+<ul>
+    <li class="Men's Fragrance"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Men's Fragrance</b></a></li>
+    <li><a href="./product.html">Perfumes (EDP/EDT)</a></li>
+    <li><a href="./product.html">Aftershave</a></li>
+    <li><a href="./product.html">Face & Body Mists</a></li>
+    <li><a href="./product.html">Gifts</a></li>
+    <li><a href="./product.html">Deodorants</a></li>
+</ul>
+
+<ul>
+    <li class="Candles"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Candles</b></a></li>
+</ul>
+
+<ul>
+    <li class="Unisex"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Unisex</b></a></li>
+</ul>
+
+<ul>
+    <li class="Deodorants"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Deodorants</b></a></li>
+</ul>
+
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Gift Sets</b></a></li>
+</ul>
+
+<ul>
+    <li class="Minis"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Minis</b></a></li>
+</ul>
+
                             </div>
                           </li>
                           <li>Hair
                             <div class="sub_menu_2">
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup Collection Face</b></a></li>
-                                    <li><a href="./product.html">Foundation</a></li>
-                                    <li><a href="./product.html">Compact</a></li>
-                                    <li><a href="./product.html">Highlighter</a></li>
-                                    <li><a href="./product.html">Setting Spray</a></li>
-                                    <li><a href="./product.html">Primer</a></li>
-                                    <li><a href="./product.html">Concealer Powder</a></li>
-                                    <li><a href="./product.html">Blush</a></li>
-                                    <li><a href="./product.html">Loose Powder</a></li>
-                                    <li><a href="./product.html">Bronzer</a></li>
-                                    <li><a href="./product.html">BB & CC Cream</a></li>
-                                    <li><a href="./product.html">Makeup Remover</a></li>
-                                    <li><a href="./product.html">Contouring</a></li>
-                                    <li><a href="./product.html"></a>Face Palette</li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Accessories</b></a></li>
-                                    <li><a href="./product.html">Dryers & Stylers</a></li>
-                                    <li><a href="./product.html">Hair Brushes & Combs</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lips</b></a></li>
-                                    <li><a href="./product.html">Lipstick</a></li>
-                                    <li><a href="./product.html">Liquid Lipstick</a></li>
-                                    <li><a href="./product.html">Lip Balm</a></li>
-                                    <li><a href="./product.html">Lip Tint</a></li>
-                                    <li><a href="./product.html">Lip Liner</a></li>
-                                    <li><a href="./product.html">Lip Plumper</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color:  rgb(46, 45, 45);"><b>Nails</b></a></li>
-                                    <li><a href="./product.html">Nail Polish</a></li>
-                                    <li><a href="./product.html">Nail Care</a></li>
-                                    <li><a href="./product.html">Nail Polish Remover</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Brushes</b></a></li>
-                                    <li><a href="./product.html">Face Brush</a></li>
-                                    <li><a href="./product.html">Eye Brush</a></li>
-                                    <li><a href="./product.html">Lip Brush</a></li>
-                                    <li><a href="./product.html">Applicators</a></li>
-                                    <br>
+<ul>
+    <li class="Hair Care"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Hair Care</b></a></li>
+    <li><a href="./product.html">Shampoo</a></li>
+    <li><a href="./product.html">Conditioner</a></li>
+    <li><a href="./product.html">Hair Oil</a></li>
+    <li><a href="./product.html">Hair Serums & Masks</a></li>
+</ul>
+
+<ul>
+    <li class="Tools & Accessories"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Accessories</b></a></li>
+    <li><a href="./product.html">Dryers & Stylers</a></li>
+    <li><a href="./product.html">Hair Brushes & Combs</a></li>
+</ul>
+
+<ul>
+    <li class="Hair Styling Collection"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Hair Styling Collection</b></a></li>
+    <li><a href="./product.html">Hair Spray</a></li>
+</ul>
+
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Gift Sets</b></a></li>
+</ul>
+
+<ul>
+    <li class="Shop By Concern"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Shop By Concern</b></a></li>
+    <li><a href="./product.html">Dandruff</a></li>
+    <li><a href="./product.html">Frizzy Hair</a></li>
+    <li><a href="./product.html">Hair Fall & Thinning</a></li>
+    <li><a href="./product.html">Damaged Hair</a></li>
+    <li><a href="./product.html">Coloured / Treated Hair</a></li>
+    <li><a href="./product.html">Oily Hair</a></li>
+    <li><a href="./product.html">Split Ends</a></li>
+</ul>
+
+
+
                             </div>
                           </li>
-                          <li>Bath & Body
+                          <li>Bath and Body
                             <div class="sub_menu_2">
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Face</b></a></li>
-                                    <li><a href="./product.html">Serums & Essence</a></li>
-                                    <li><a href="./product.html">Face Moisturisers & Day</a></li>
-                                    <li><a href="./product.html">Cream</a></li>
-                                    <li><a href="./product.html">Toner</a></li>
-                                    <li><a href="./product.html">Face Wash & Cleansers</a></li>
-                                    <li><a href="./product.html">Face Mist</a></li>
-                                    <li><a href="./product.html">Scrubs & Exfoliators</a></li>
-                                    <li><a href="./product.html">Masks & Peels</a></li>
-                                    <li><a href="./product.html">Night Cream</a></li>
-                                    <li><a href="./product.html">Sunscreen</a></li>
-                                    <li><a href="./product.html">Makeup Remover</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Undereye Creams & Serums</b></a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lip Care</b></a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Shop By Concern</b></a></li>
-                                    <li><a href="./product.html">Pigmentation</a></li>
-                                    <li><a href="./product.html">Acne</a></li>
-                                    <li><a href="./product.html">Dark Circles</a></li>
-                                    <li><a href="./product.html">Ageing</a></li>
-                                    <li><a href="./product.html">Dry Skin</a></li>
-                                    <li><a href="./product.html">Oil Control</a></li>
-                                    <li><a href="./product.html">Pore Care</a></li>
-                                    <li><a href="./product.html">Wrinkles And Fine Lines</a></li>
-                                    <li><a href="./product.html">Under Eye Concealer</a></li>
-                                    <li><a href="./product.html">Contact Lenses</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Gift Sets</b></a></li>
-                                </ul>
+<ul>
+    <li class="Bath"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Bath</b></a></li>
+    <li><a href="./product.html">Shower Gels & Body Wash</a></li>
+    <li><a href="./product.html">Soaps</a></li>
+    <li><a href="./product.html">Scrubs & Exfoliators</a></li>
+</ul>
+
+<ul>
+    <li class="Body"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Body</b></a></li>
+    <li><a href="./product.html">Body Lotions & Creams</a></li>
+    <li><a href="./product.html">Body Oil</a></li>
+    <li><a href="./product.html">Sunscreen</a></li>
+</ul>
+
                             </div>
                           </li>
-                          <li>Shop By Concern
+                          <li>Gifts
                             <div class="sub_menu_2">
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup Collection Face</b></a></li>
-                                    <li><a href="./product.html">Foundation</a></li>
-                                    <li><a href="./product.html">Compact</a></li>
-                                    <li><a href="./product.html">Highlighter</a></li>
-                                    <li><a href="./product.html">Setting Spray</a></li>
-                                    <li><a href="./product.html">Primer</a></li>
-                                    <li><a href="./product.html">Concealer Powder</a></li>
-                                    <li><a href="./product.html">Blush</a></li>
-                                    <li><a href="./product.html">Loose Powder</a></li>
-                                    <li><a href="./product.html">Bronzer</a></li>
-                                    <li><a href="./product.html">BB & CC Cream</a></li>
-                                    <li><a href="./product.html">Makeup Remover</a></li>
-                                    <li><a href="./product.html">Contouring</a></li>
-                                    <li><a href="./product.html"></a>Face Palette</li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Eyes</b></a></li>
-                                    <li><a href="./product.html">Eyeliner & Kajal</a></li>
-                                    <li><a href="./product.html">Mascara</a></li>
-                                    <li><a href="./product.html">Eye Shadow</a></li>
-                                    <li><a href="./product.html"> Brows</a></li>
-                                    <li><a href="./product.html">Eye Primer</a></li>
-                                    <li><a href="./product.html">Con./product.htmlcealer</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Lips</b></a></li>
-                                    <li><a href="./product.html">Lipstick</a></li>
-                                    <li><a href="./product.html">Liquid Lipstick</a></li>
-                                    <li><a href="./product.html">Lip Balm</a></li>
-                                    <li><a href="./product.html">Lip Tint</a></li>
-                                    <li><a href="./product.html">Lip Liner</a></li>
-                                    <li><a href="./product.html">Lip Plumper</a></li>
-                                    <br>
-                                    <li><a href="./product.html" style="color:  rgb(46, 45, 45);"><b>Nails</b></a></li>
-                                    <li><a href="./product.html">Nail Polish</a></li>
-                                    <li><a href="./product.html">Nail Care</a></li>
-                                    <li><a href="./product.html">Nail Polish Remover</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Tools & Brushes</b></a></li>
-                                    <li><a href="./product.html">Face Brush</a></li>
-                                    <li><a href="./product.html">Eye Brush</a></li>
-                                    <li><a href="./product.html">Lip Brush</a></li>
-                                    <li><a href="./product.html">Applicators</a></li>
-                                    <br>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Fragrances</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Skin</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Bath & Body</b></a></li>
+</ul>
                             </div>
                           </li>
-                          <li>Gifts</li>
-                          <li>Trending Now</li>
-                          <li>New Launches</li>
-                          <li>Minis</li>  
+                          <li>Trending Now
+                            <div class="sub_menu_2">
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Natural</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Vegan & Cruelty Free</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Vitamin C</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Retinoid</b></a></li>
+</ul>
+<ul>
+    <li class="Gift Sets"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Hyaluronic Acid</b></a></li>
+</ul>
+                            </div>
+                          </li>
+                          <li>New Launches
+                            <div class="sub_menu_2">
+<ul>
+    <li class="Makeup"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup</b></a></li>
+</ul>
+
+<ul>
+    <li class="Skin"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Skin</b></a></li>
+</ul>
+
+<ul>
+    <li class="Hair"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Hair</b></a></li>
+</ul>
+
+<ul>
+    <li class="Fragrance"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Fragrance</b></a></li>
+</ul>
+
+<ul>
+    <li class="Bath & Body"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Bath & Body</b></a></li>
+</ul>
+
+                            </div>
+                          </li>
+                          <li>Minis
+                            <div class="sub_menu_2">
+<ul>
+    <li class="Makeup"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Makeup</b></a></li>
+</ul>
+
+<ul>
+    <li class="Skin"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Skin</b></a></li>
+</ul>
+
+<ul>
+    <li class="Hair"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Hair</b></a></li>
+</ul>
+
+<ul>
+    <li class="Fragrance"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Fragrance</b></a></li>
+</ul>
+
+<ul>
+    <li class="Bath & Body"><a href="./product.html" style="color: rgb(46, 45, 45);"><b>Bath & Body</b></a></li>
+</ul>
+
+                            </div>
+                          </li>  
                         </ul>
                     </div>  
                 </p></li>
@@ -1707,3 +1674,5 @@ const links = document.querySelectorAll("li a");
 links.forEach((link) => {
   link.href = "./product.html";
 });
+
+
