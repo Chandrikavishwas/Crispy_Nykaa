@@ -26,6 +26,8 @@ i am student of Full stack web development batch which is one of the famous cour
 - User can able to filter product list according to several parameters.
 - After clicking on any beauty product , product page added to the cart page then you will go to the address page and fell address and choose the payment mode. you can do it with anyone.. .
 - When user click on pay now button he get confirmation message and after confirmation user will get otp and after entering otp payment will be successfull.
+- CRUD Functionality
+- Payment Functionality
 
 # team
 
@@ -44,7 +46,9 @@ i am student of Full stack web development batch which is one of the famous cour
 # Features
 
 - navbar with megamenu
+- Payment Functionality
 - Login/Logout
+- CRUD Functionality
 - Home page and Sub pages
 - Checkout-Page/Address-Page/Payments-Page/
 - Interactive Sliders with Products displayer
